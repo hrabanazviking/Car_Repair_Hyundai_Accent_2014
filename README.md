@@ -32,6 +32,10 @@
 
 ---
 
+![https://raw.githubusercontent.com/hrabanazviking/Car_Repair_Hyundai_Accent_2014/refs/heads/main/2014_Hyundai_SE_Car_Exhaust1.png](https://raw.githubusercontent.com/hrabanazviking/Car_Repair_Hyundai_Accent_2014/refs/heads/main/2014_Hyundai_SE_Car_Exhaust1.png)
+
+---
+
 
 
 
