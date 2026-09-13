@@ -1,0 +1,36 @@
+name: Build definitive mechanic directory
+
+on:
+  push:
+    paths:
+      - 'USA_Honest_Budget_Auto_Repair_Directory*.md'
+      - 'tools/build_master_mechanic_directory.py'
+      - '.github/workflows/build_master_mechanic_directory.yml'
+      - '!USA_Honest_Budget_Auto_Repair_Directory_MASTER_STATE_INDEXED.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-master-directory:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Build state-indexed master directory
+        run: python3 tools/build_master_mechanic_directory.py
+
+      - name: Commit generated master if changed
+        shell: bash
+        run: |
+          if git diff --quiet -- USA_Honest_Budget_Auto_Repair_Directory_MASTER_STATE_INDEXED.md && git ls-files --error-unmatch USA_Honest_Budget_Auto_Repair_Directory_MASTER_STATE_INDEXED.md >/dev/null 2>&1; then
+            echo "Master directory is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add USA_Honest_Budget_Auto_Repair_Directory_MASTER_STATE_INDEXED.md
+          git commit -m "Build definitive state-indexed mechanic directory"
+          git push
