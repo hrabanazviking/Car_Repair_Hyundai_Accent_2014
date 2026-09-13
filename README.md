@@ -1,5 +1,3 @@
----
-
 | ![USA Honest Budget Auto Repair Directory](https://github.com/hrabanazviking/Car_Repair_Hyundai_Accent_2014/blob/main/USA_Honest_Budget_Auto_Repair_Directory_MASTER_STATE_INDEXED.md) |
 
 ---
