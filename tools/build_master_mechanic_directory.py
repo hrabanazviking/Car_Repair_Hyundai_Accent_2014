@@ -318,3 +318,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Trigger marker: 2026-09-13 initial canonical build
