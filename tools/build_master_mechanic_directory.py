@@ -100,6 +100,27 @@ DIRECT_MASTER_ENTRIES = [
             "https://www.gerbercollision.com/feedback/angola-in",
         ],
     },
+    {
+        "state": "Indiana",
+        "heading": "Tireville — Garrett",
+        "source_file": "Direct master research — Garrett, IN (2026-09-13)",
+        "lines": [
+            "**Evidence:** A  ",
+            "**Name note:** The current official/public name is Tireville; this is the Garrett tire shop sometimes referred to locally as Tire City.  ",
+            "**Address:** 4490 State Hwy 327, Garrett, IN 46738  ",
+            "**Phone:** (260) 357-4187  ",
+            "**Review snapshot:** About 4.7–4.8/5 across roughly 189–191 public reviews in current researched listings.  ",
+            "**Type / focus:** Tire sales and repair plus alignments, brakes, oil changes, batteries/electrical, suspension, shocks/struts, steering, transmission service, balancing and rotations.  ",
+            "**Why it fits:** The Garrett location has a large local review footprint with repeated praise for fast service, fair/competitive prices, friendly staff and dependable tire/repair work. Public review material specifically characterizes its recommendations as honest, and long-term customers describe returning for both tire service and other repairs.  ",
+            "**Longevity / trust signal:** BBB lists the business as locally operating for about 50 years, accredited since 1975, with an A+ BBB rating in the researched snapshot.  ",
+            "**Caution / grade rationale:** One isolated 2020 consumer complaint alleged poor handling of a Mastercraft tire warranty. The much larger current review footprint remains strongly positive, but this older complaint is why the shop is graded A rather than A+. Re-check the newest reviews and warranty terms before a major tire purchase.  ",
+            "**Sources:**  ",
+            "https://www.tireville.com/Contact/Find-Us",
+            "https://www.bbb.org/us/in/garrett/profile/tire-dealers/tireville-inc-0352-6060",
+            "https://reviews.birdeye.com/tireville-149676170884636",
+            "https://www.yellowpages.com/garrett-in/mip/tireville-8284086",
+        ],
+    },
 ]
 
 
